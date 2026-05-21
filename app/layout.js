@@ -4,8 +4,8 @@ import Provider from './provider';
 
 export const metadata = {
   title: 'Interior AI',
-  description: 'AI-powered interior design app',
   manifest: '/manifest.json',
+  themeColor: '#000000',
 };
 
 export default function RootLayout({ children }) {
@@ -21,5 +21,4 @@ export default function RootLayout({ children }) {
     </ClerkProvider>
   );
 }
-
 
